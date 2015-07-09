@@ -6,6 +6,6 @@ public class FetterWwsMessageComposer extends WwsMessageComposer {
 	
 	@Override
 	public String composeMessage() {
-		return "Nachricht von " + getClass().getSimpleName() + " und " + super.composeMessage();
+		return "Kombinierte Nachricht von Nachricht von " + getClass().getSimpleName() + " und " + super.composeMessage();
 	}
 }
